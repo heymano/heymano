@@ -58,5 +58,5 @@ Spring MVC의 구체적인 동작과정은 다음과 같다.
   8. DispatcherServlet은 7번 과정에서 얻은 View객체에 5번 과정에서 얻은 ModelAndView의 Model을 파라미터로 넘겨주어 render메소드를 호출하여
      페이지 렌더링을 수행한다.
   9. DispatcherServlet은 랜더링 된 페이지를 response로 사용자에게 리턴한다.
-(출처 https://jeonyoungho.github.io/posts/Spring-MVC-%EB%8F%99%EC%9E%91-%EA%B3%BC%EC%A0%95/)
+  (출처 https://jeonyoungho.github.io/posts/Spring-MVC-%EB%8F%99%EC%9E%91-%EA%B3%BC%EC%A0%95/)
 
