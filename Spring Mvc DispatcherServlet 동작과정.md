@@ -43,8 +43,8 @@ DispatcherServlet이 어떻게 동작하는 과정은 다음과 같다.
  초기화 메소드에서 아래에서 설명할 전략 인터페이스의 빈이 존재하는지를 찾고,
  없으면 default 설정에 따라 빈을 생성하거나 아무 작업이 없을 수도 있다.
  (전략 인터페이스의 빈 생성은<mvc:annotation-driven/> 혹은@EnableMvc를 통해 웹 컨테이너가 initialize 되는 시점이다.)
+(출처 https://jess-m.tistory.com/15)
  
- 그럼 DispatcherServlet이 가지는 기능(전략 인터페이스)를 간단히 알아보자.
 
 Spring MVC의 구체적인 동작과정은 다음과 같다.
 
@@ -58,3 +58,5 @@ Spring MVC의 구체적인 동작과정은 다음과 같다.
   8. DispatcherServlet은 7번 과정에서 얻은 View객체에 5번 과정에서 얻은 ModelAndView의 Model을 파라미터로 넘겨주어 render메소드를 호출하여
      페이지 렌더링을 수행한다.
   9. DispatcherServlet은 랜더링 된 페이지를 response로 사용자에게 리턴한다.
+(출처 https://jeonyoungho.github.io/posts/Spring-MVC-%EB%8F%99%EC%9E%91-%EA%B3%BC%EC%A0%95/)
+
