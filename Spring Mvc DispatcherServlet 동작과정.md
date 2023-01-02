@@ -4,8 +4,9 @@
 Spring MVC는 DispatcherServlet, View Resolver, Interceptor, Handler, View 등으로 구성되어있다.
 
 이중에 DispatcherServlet이 가장 앞단의 front controller 역할을 하며 가장 핵심적인 역할을 한다.
-** DispatcherServlet은 Java EE의 Servlet을 래핑한 클래스이다. 컨트롤러의 컨트롤러 같은 느낌으로 개발을 아주 편리하게 해준다.
-  Request를 올바른 처리 핸들러에 위임하는 것 부터 Model과 View 처리, Controller 매핑 등 다양한 기능을 지원해준다. **
+
+* DispatcherServlet은 Java EE의 Servlet을 래핑한 클래스이다. 컨트롤러의 컨트롤러 같은 느낌으로 개발을 아주 편리하게 해준다.
+  Request를 올바른 처리 핸들러에 위임하는 것 부터 Model과 View 처리, Controller 매핑 등 다양한 기능을 지원해준다. *
   
 ![img1 daumcdn](https://user-images.githubusercontent.com/60213850/210189647-9f3a0a7f-2a45-4431-b1f1-ce592f5981bd.png)
 
