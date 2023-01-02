@@ -1,3 +1,6 @@
+![115183554-f499ba80-a116-11eb-9592-5404d245e173](https://user-images.githubusercontent.com/60213850/210191086-4e4408fe-ae5b-43de-94b6-f9f12e02e7b9.png)
+
+
 Spring MVC는 DispatcherServlet, View Resolver, Interceptor, Handler, View 등으로 구성되어있다.
 
 이중에 DispatcherServlet이 가장 앞단의 front controller 역할을 하며 가장 핵심적인 역할을 한다.
